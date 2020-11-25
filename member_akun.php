@@ -28,7 +28,7 @@
           </div>
           <div class="form-group">
             <label for="">Alamat</label>
-            <textarea name="member_alamat" cols="3" rows="3"><?= $data['member_alamat'] ?></textarea>
+            <textarea class="form-control" name="member_alamat" cols="10" rows="3"><?= $data['member_alamat'] ?></textarea>
           </div>
           <button class="btn btn-primary" name="simpan">Update</button>
         </form>

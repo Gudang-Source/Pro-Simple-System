@@ -93,7 +93,7 @@ include 'MY_url_helper.php'; ?>
                 echo '<script>swal("", "Username / Password Salah", "error");</script>';
               }
             } elseif ($_POST['level'] == "pemilik") {
-              $cekUsername = $con->get('tb_admin', '*', array(
+              $cekUsername = $con->get('tb_pemilik', '*', array(
                 'pemilik_username' => $_POST['username']
               ));
               if ($cekUsername['pemilik_password'] == $_POST['password']) {;

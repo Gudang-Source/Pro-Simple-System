@@ -56,7 +56,7 @@ include 'MY_url_helper.php'; ?>
             </div>
             <div class="form-group">
               <label for="">Alamat</label>
-              <textarea name="member_alamat" id="" cols="3" rows="3" class="form-control" required></textarea>
+              <textarea class="form-control" name="member_alamat" id="" cols="10" rows="3" class="form-control" required></textarea>
             </div>
             <button class="btn btn-primary" name="simpan">Register</button>
           </form>

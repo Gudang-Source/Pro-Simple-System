@@ -30,7 +30,7 @@
           </div>
           <div class="form-group">
             <label for="">Keterangan</label>
-            <textarea name="ket" id="" cols="3" rows="3" class="form-control" required></textarea>
+            <textarea class="form-control" name="ket" id="" cols="10" rows="3" class="form-control" required></textarea>
           </div>
           <button class="btn btn-primary" name="simpan">Tambah</button>
         </form>

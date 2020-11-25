@@ -45,9 +45,9 @@ include 'MY_url_helper.php'; ?>
                     <?php elseif ($_SESSION['level'] == "member") : ?>
                         <a class="nav-link" href="member_produk.php">Produk</a>
                         <a class="nav-link" href="member_akun.php">Akun</a>
-                    <?php elseif ($_SESSION['level'] == "member") : ?>
-                        <a class="nav-link" href="pemilik.php">Akun</a>
+                    <?php elseif ($_SESSION['level'] == "pemilik") : ?>
                         <a class="nav-link" href="produk.php">Produk</a>
+                        <a class="nav-link" href="pemilik.php">Akun</a>
                     <?php else : ?>
                         <a class="nav-link" href="register.php">Register</a>
                         <a class="nav-link" href="login.php">Login</a>
